@@ -11,6 +11,10 @@
   box-sizing: border-box;
 }
 
+h1, h2 {
+  margin-bottom: 1rem;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   background-color: #ffa217b7;
@@ -39,20 +43,18 @@ header {
   color: #fda502;
 }
 
-.main-container {
-  display: flex;
-}
-
 .button-container {
   display: flex;
   justify-content: column;
   align-items: flex-start;
-  margin-right: 20px; 
+  margin: 2rem 2rem 2rem 0;
 }
 
-.Home.button button,
-.Projects.button button,
-.Rec_Projects.button button {
+.button-container {
+  list-style-type: none;
+}
+
+.button { 
   display: inline-block;
   background-color: #f08827;
   border-radius: 20px;
@@ -60,19 +62,39 @@ header {
   color: #ffffff;
   text-align: center;
   font-size: 15px;
-  padding: 10px;
+  padding: 0.75rem 1rem;
   width: 150px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
 }
 
-.Home.button button:hover,
-.Projects.button button:hover,
-.Rec_Projects.button button:hover {
+a.button {
+  text-decoration: none;
+}
+
+.button:hover {
   background-color: #e7a310b4;
 }
 
+
+#opener.content-container {
+  display: flex;
+}
+
+.col-1, .col-2 {
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: 50%;
+}
+
+.col-1 {
+  padding-right: 1rem;
+}
+
+.col-2 {
+  padding-left: 1rem;
+}
 
 .text-container button {
   background-color: #f08827;
@@ -92,7 +114,7 @@ header {
 }
 
 .content-container {
-  margin-left: 20px; 
+  margin: 0 2rem;
 }
 
 .image-container {
@@ -101,26 +123,26 @@ header {
 
 .cropped1 {
   width: 100%;
-  height: 250px;
+  max-height: 40rem;
   object-fit: cover;
+  object-position: bottom;
   border: 3px solid rgb(250, 156, 15);
 }
 
 p {
   font-size: 1.1em;
   font-weight: 100;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
 }
 
 .logos {
   display: flex;
-  justify-content: center;
   margin-top: 20px;
 }
 
 .logos img {
-  width: 100px;
-  height: 100px;
-  object-fit: contain;
-  padding: 1px;
+  width: auto;
+  height: 3rem;
+  padding-right: 1rem;
 }
