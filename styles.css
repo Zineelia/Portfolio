@@ -1,0 +1,126 @@
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply box-sizing: border-box to all elements */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #ffa217b7;
+}
+
+header {
+  background: #fda502;
+  color: white;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.btn-bgstroke {
+  font-size: 20px;
+  display: inline-block;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.btn-bgstroke:hover {
+  background-color: white;
+  color: #fda502;
+}
+
+.main-container {
+  display: flex;
+}
+
+.button-container {
+  display: flex;
+  justify-content: column;
+  align-items: flex-start;
+  margin-right: 20px; 
+}
+
+.Home.button button,
+.Projects.button button,
+.Rec_Projects.button button {
+  display: inline-block;
+  background-color: #f08827;
+  border-radius: 20px;
+  border: 4px double #cccccc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.Home.button button:hover,
+.Projects.button button:hover,
+.Rec_Projects.button button:hover {
+  background-color: #e7a310b4;
+}
+
+
+.text-container button {
+  background-color: #f08827;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.text-container button:hover {
+  background-color: #e7a310b4;
+}
+
+.content-container {
+  margin-left: 20px; 
+}
+
+.image-container {
+  margin-left: auto;
+}
+
+.cropped1 {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border: 3px solid rgb(250, 156, 15);
+}
+
+p {
+  font-size: 1.1em;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.logos img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  padding: 1px;
+}
