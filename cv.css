@@ -1,0 +1,112 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+}
+
+.header {
+  text-align: center;
+  color: orange;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.bullet-points {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+.divider {
+  border: none;
+  border-top: 2px solid orange;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.bullet-points li {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+
+.microsoft {
+  box-sizing: border-box;
+  background-color: rgb(247, 186, 56);
+  float: left;
+  width: 20%;
+  color: white;
+  padding: 5px;
+  height: 175px;
+  text-align: left;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px 2px rgb(253, 106, 8);
+}
+
+.microsoft h2 {
+  text-align: center;
+}
+
+.figma {
+  margin-left: 1rem;
+  box-sizing: border-box;
+  background-color: rgb(247, 186, 56);
+  float: left;
+  width: 20%;
+  color: white;
+  padding: 5px;
+  height: 175px;
+  text-align: left;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px 2px rgb(253, 106, 8);
+}
+
+.figma h2 {
+  text-align: center;
+}
+
+.unity {
+  margin-left: 1rem;
+  box-sizing: border-box;
+  background-color: rgb(247, 186, 56);
+  float: left;
+  width: 20%;
+  color: white;
+  padding: 5px;
+  height: 175px;
+  text-align: left;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px 2px rgb(253, 106, 8);
+}
+
+.unity h2 {
+  text-align: center;
+}
+
+.webdev {
+  margin-left: 1rem;
+  box-sizing: border-box;
+  background-color: rgb(247, 186, 56);
+  float: left;
+  width: 20%;
+  color: white;
+  padding: 5px;
+  height: 175px;
+  text-align: left;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px 2px rgb(253, 106, 8);
+}
+
+.webdev h2 {
+  text-align: center;
+}

@@ -14,10 +14,15 @@
 h1, h2 {
   margin-bottom: 1rem;
 }
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
 
 body {
   font-family: 'Lato', sans-serif;
-  background-color: #ffa217b7;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 header {
@@ -30,12 +35,14 @@ header {
 .btn-bgstroke {
   font-size: 20px;
   display: inline-block;
+  background-color: #fda502;
   border: 1px solid white;
   padding: 10px 20px;
   border-radius: 10px;
   cursor: pointer;
   font-weight: 300;
   margin-top: 30px;
+  width: fit-content;
 }
 
 .btn-bgstroke:hover {
@@ -119,11 +126,16 @@ a.button {
 
 .image-container {
   margin-left: auto;
+  padding-right: 5rem;
 }
 
 .cropped1 {
-  width: 100%;
-  max-height: 40rem;
+  display: flex;
+  position: relative;
+  left: 6em;
+  height: 70%;
+  width: 50%;
+  border-radius: 50%;
   object-fit: cover;
   object-position: bottom;
   border: 3px solid rgb(250, 156, 15);
@@ -139,6 +151,7 @@ p {
 .logos {
   display: flex;
   margin-top: 20px;
+  padding-bottom: 1rem;
 }
 
 .logos img {
